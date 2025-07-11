@@ -106,11 +106,14 @@ body.slideshow-ativo #background-slideshow {
 
 #envelope button {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: transparent;
   border: none;
   cursor: pointer;
+  z-index: 15;
 }
 
 /* Conteúdo Principal */
