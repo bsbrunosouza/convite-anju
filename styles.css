@@ -99,8 +99,10 @@ body.slideshow-ativo #background-slideshow {
 }
 
 #envelope img {
-  width: 90vmin;
-  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: none;
 }
 
 #envelope button {
